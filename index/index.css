@@ -3,58 +3,39 @@ body{
 	font-family: 'Lato', sans-serif;
 }
 
-#container1{
-	position: relative;
-	text-align: center;
-	color: white;
+.contain1 {
+    position: relative;
+    text-align: center;
+    color: white;
+		display: block;
+		object-fit: fill;
 }
 
-.centered{
-	position: absolute;
-	top: 40%;
-	left: 50%;
-	transform: translate(-50%, -50%);
+.contain2 {
+    position: relative;
+    text-align: center;
+    color: black;
+		display: block;
+		object-fit: fill;
 }
 
-.bottom{
-	position: absolute;
-	top: 60%;
-	left: 50%;
-	transform: translate(-50%, -50%);
+.centered {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+		font-size: 45px;
+		font-weight: bold;
+		font-family: 'Lato', sans-serif;
 }
 
-#title{
-	font-size: 48px;
-	color: white;
-}
-
-#paragraph{
-	font-size: 20px;
-	color: white;
-	font-weight: lighter;
-}
-
-#login{
- width: 300px;
- height: 529px;
- object-fit: cover;
-}
-
-h4{
-	margin-top: 5%;
-}
-
-#title2{
-	color: black;
-	font-weight: bolder;
-}
-
-#teacher{
-	background: rgb(240,255,255);
-}
-
-#teacherimg{
-	width:100%;
+@media(max-width: 576px) {
+	.centered{
+		font-size: 1.9em;
+	}
+  html{
+		font-size: 0.7em;
+	}
 }
 
 ul {
