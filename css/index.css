@@ -68,3 +68,23 @@ i{
 .requirements{
 	line-height: 40px;
 }
+
+@keyframes MoveInLeft {
+	0% {
+		opacity: 0;
+		transform: translateX(-100px);
+	}
+
+	80%{
+		transform: translateX(10px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translate(0);
+	}
+}
+
+.animated{
+	animation: MoveInLeft 1s ease-out;
+}
