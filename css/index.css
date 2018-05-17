@@ -1,0 +1,70 @@
+body{
+	font-family: 'Lato', sans-serif;
+}
+
+.navbar {
+  box-shadow: 2px 2px 5px #3292a6;
+  opacity: 0.9;
+  background: #fff; }
+}
+
+#tittle{
+	font-size: 200px;
+}
+
+.nav-item{
+	font-size: 1.3rem;
+	padding-right: 16px;
+}
+
+#showcase {
+  position: relative;
+	display: block;
+  background: url("/img/phone.png");
+	background-position: left 30px top;
+  min-height: 900px;
+  margin-top: 110px;
+	}
+
+.d-flex{
+	margin-top: 300px;
+}
+
+#showcase .primary-overlay {
+    background: rgba(50, 146, 166, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+	}
+
+i{
+	text-align: center;
+	font-size: 80px;
+}
+
+#why p{
+	color: rgba(134, 134, 134);
+}
+
+#why .card:hover {
+  background: #3292a6;
+  color: #fff; }
+  #why .card:hover .fa {
+    color: #fff; }
+		#why .card:hover p {
+	    color: #fff; }
+
+#contact{
+	color: rgba(50, 146, 166, 0.9);
+	background-color: #f8f9fa;
+}
+
+#contact i{
+	font-size: 20px;
+}
+
+.requirements{
+	line-height: 40px;
+}
